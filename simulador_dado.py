@@ -32,6 +32,5 @@ class SimuladorDado:
     def GerarValorDado(self):
         print(random.randint(self.valor_minimo,self.valor_maximo))       
 
-# Socorro
 simulador = SimuladorDado()
 simulador.Iniciar()
